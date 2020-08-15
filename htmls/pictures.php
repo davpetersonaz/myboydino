@@ -29,9 +29,9 @@ if(isset($_GET['chrono'])){
 			</a>
 
 			<div>
-<?php if($alreadyLoggedIn){ ?>
+<?php /*if($alreadyLoggedIn){ ?>
 				<button class='btn' id='description'>description</button>
-<?php } ?>
+<?php }*/ ?>
 			</div>
 			<!-- this is where i will have the heart, and double-heart (double can only be clicked if the first was clicked more than a month previously) -->
 			<!-- glyphicon glyphicon-heart and glyphicon glyphicon-heart-empty -->
