@@ -45,6 +45,6 @@ spl_autoload_register('ourautoload');
 session_start();
 $alreadyLoggedIn = (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true);
 
-$db = new DBcore();
+$db = new DB();
 
 logDebug('config complete');
