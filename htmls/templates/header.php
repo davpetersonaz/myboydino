@@ -7,6 +7,7 @@
 
 		<!-- declare CSS first -->
 		<link href="/css/bootstrap4/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="/css/core_style.css?v<?=filemtime($_SERVER['DOCUMENT_ROOT'].'/css/core_style.css')?>" rel="stylesheet" type="text/css">
 		<link href="/css/style.css?v<?=filemtime($_SERVER['DOCUMENT_ROOT'].'/css/style.css')?>" rel="stylesheet" type="text/css">
 
 		<!-- TODO: Place at the end of the document so the pages load faster -->
