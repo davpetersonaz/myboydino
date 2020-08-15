@@ -1,9 +1,13 @@
 <?php include('../router.php'); ?>
 <?php include(HTMLS_PATH.'templates/header.php'); ?>
 
-<div class="container-fluid">
-	<?php include(HTMLS_PATH.$page.'.php'); ?>
-</div><!-- //container-fluid -->
+		<div class="container-fluid">
+			<!--  CONTENT BELOW  -->
+
+			<?php include(HTMLS_PATH.$page.'.php'); ?>
+
+			<!--  CONTENT COMPLETE  -->
+		</div><!-- //container-fluid -->
 
 <?php include(HTMLS_PATH.'templates/footer.php'); ?>
 
@@ -13,3 +17,6 @@ $(document).ready(function(){
 	$.post('/ajax/verifyImages.php');
 });
 </script>
+
+	</body>
+</html>

@@ -108,16 +108,137 @@ div.videos.row div.vid-pad div.vid-border div.caption{
 	padding-top: 5px;
 }
 
+/** THE FOLLOWING IS FROM / SHOULD BE IN core_style.css **/
+
+/*** common functions ***/
+.full-height{
+	height: 100%;
+}
+.full-width{
+	width: 100%;
+}
+.left-justify{
+	float: left;
+}
+.right-justify{
+	float: right;
+}
+.text-align-center{
+	text-align: center;
+}
+.text-align-left{
+	text-align: left;
+}
+.text-align-right{
+	text-align: right;
+}
+.invisible{
+	visibility: hidden;
+}
+.red-text, 
+.red-text a{
+	color: red;
+}
+.bg-dark.btn-primary,
+.bg-dark.btn-primary:focus,
+.bg-dark.btn-primary:not(:disabled):not(.disabled):active,
+.bg-dark.btn-primary:not(:disabled):not(.disabled):active:focus{
+	background-color: inherit;
+	border: 0;
+	box-shadow: none;
+}
+.navbar .dropdown-on-hover .dropdown-content a.bg-dark:hover{
+	background-color: inherit !important;
+}
+.hidden{
+	/*display: none;*/
+	visibility: hidden;
+}
+.popup-on-hover{
+	display: none;
+}
+
 /** footer **/
 .footer{
-	background-color: #f5f5f5;
+	/*background-color: #f8f8f8;*/
 	bottom: 0;
-	height: 60px; /* fixed footer height */
-	line-height: 60px; /* center text vertically */
+	color: white;
+	height: 60px; /* Set the fixed height of the footer here */
+	line-height: 60px; /* Vertically center the text there */
 	position: absolute;
 	width: 100%;
 }
-.footer > .container{
-	padding-left: 15px;
-	padding-right: 15px;
+.footer a{
+	color: white;
 }
+.footer > .container{
+/*	padding-left: 15px;
+	padding-right: 15px;*/
+	max-width: 100%;
+}
+.footer > .container .left-justify{
+	display: inline-block;
+}
+.footer > .container .right-justify{
+	display: inline-block;
+	text-align: right;
+}
+.footer > .container #login{
+	margin-top: 10px;
+}
+.footer > .container button#login:hover,
+.footer > .container button#logout:hover,
+nav.navbar .admin-buttons button.btn:hover{
+	background: white;
+}
+
+/*** footer login modal ***/
+#loginModal{
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	display: none; /* Hidden by default */
+	height: 100%; /* Full height */
+	left: 0;
+	overflow: auto; /* Enable scroll if needed */
+	position: fixed; /* Stay in place */
+	top: 0;
+	width: 100%; /* Full width */
+	z-index: 1; /* Sit on top */
+}
+#loginModal .modal-box{
+	border: 1px solid #888;
+	border-radius: 5px;
+	margin: 15% auto; /* 15% from the top and centered */
+	width: 25em; /* Could be more or less, depending on screen size */
+}
+#loginModal .modal-content{
+	background-color: #fefefe;
+	border: none;
+	border-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 20px;
+}
+#loginModal .close-bar{
+	background-color: #eee;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 28px;
+	width: 100%;
+}
+#loginModal .close{
+	background-color: #ddd;
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: right;
+}
+#loginModal .close:hover,
+#loginModal .close:focus{
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+} 
