@@ -31,11 +31,11 @@ doDefine('JS_URL_PATH', '/js/');
 
 if(!function_exists('ourautoload')){
 	function ourautoload($classname){
-		if(file_exists(REAL_PATH."classes/". $classname .".php")){
-			require_once("classes/". $classname .".php");
-		}
 		if(file_exists(REAL_PATH."classes/core/". $classname .".php")){
 			require_once("classes/core/". $classname .".php");
+		}
+		if(file_exists(REAL_PATH."classes/". $classname .".php")){
+			require_once("classes/". $classname .".php");
 		}
 	}
 }
@@ -45,6 +45,6 @@ spl_autoload_register('ourautoload');
 session_start();
 $alreadyLoggedIn = (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true);
 
-$db = new DB();
+$db = new DBCore();
 
 logDebug('config complete');
