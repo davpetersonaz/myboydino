@@ -139,6 +139,10 @@ div.videos.row div.vid-pad div.vid-border div.caption{
 .red-text a{
 	color: red;
 }
+.bg-dark {
+	/*this is from css/Buttons-1.6.1/mixins(which i'm not using in this project yet'), not from core_style.css*/
+    background-color: #343a40 !important;
+}
 .bg-dark.btn-primary,
 .bg-dark.btn-primary:focus,
 .bg-dark.btn-primary:not(:disabled):not(.disabled):active,
