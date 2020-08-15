@@ -37,7 +37,7 @@ if(isset($_POST['search_for'])){
 
 				<div class='pic-pad col-xs-12 col-sm-6 col-md-4 col-lg-3'>
 					<div class='pic-border'>
-						<a href='<?=Pictures::PICS_URL.$pic?>'>
+						<a href='<?=Pictures::PICS_URL.$pic?>' target="_blank">
 							<img class='img-responsive' src='<?=Pictures::PIC_THUMBS_URL.$pic?>'>
 							<div class='caption'><p><?=$pic?></p></div>
 						</a>
