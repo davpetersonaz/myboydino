@@ -19,7 +19,7 @@
 			Dino came into my life in the summer of 2008.
 			A friend of mine saw his picture on the website for the Power Road Animal Hospital in Mesa, AZ, and
 			sent it to me with the caption "looks interesting", indeed he was a striking young fellow.  
-			So my lady and arrived at the hospital's kennel and were greeted to a couple rows of non-stop barking,
+			So my lady and I arrived at the hospital's kennel and were greeted to a couple rows of non-stop barking,
 			as we walked down the row, we came upon Dino, who was sitting in his cage not barking at all,
 			looking like a complete gentleman, much like the pose he has in some of the pictures I've featured on this website.
 			We took him out to the dogrun and we played for a little while, then came back a few days later and took him home.
@@ -36,7 +36,7 @@
 
 		<p>
 			Over the years, Dino has had a very full life, not only with all the walks and bike rides, but he would go camping many times a year,
-			either up on the Mogollon Rim, out in the White Mountains, at the magical hot springs in Eden, AZ, and all throughout the American Southwest.
+			either up on the Mogollon Rim, out in the White Mountains, at the magical hot springs in Eden AZ, and all throughout the American Southwest.
 			Every chance I'd get I'd let him out of the car to run alongside while we headed down untravelled dirt roads, he could run 30 m.p.h., easy.
 			His love for skunks is legendary, I think he finally learned his lesson one miserable day in Eden when he got it straight up his nose.
 		</p>
